@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "outDir": "build",
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "strictNullChecks": false,
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".vscode",
+    "docs",
+    "build",
+    "scripts",
+    "config",
+    "client",
+    "e2e",
+    "**/*.test.js",
+    "**/*.test.ts",
+  ]
+}
